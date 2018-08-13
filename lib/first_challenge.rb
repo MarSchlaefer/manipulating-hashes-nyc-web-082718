@@ -13,17 +13,8 @@ def first_challenge
     }
   }
 
-  contacts.each do |person, data|
-    data.each do |attribute, value|
-      if attribute == :favorite_icecream_flavors
-        value.each do |flavor|
-          if flavor.include? "strawberry" == true 
-            flavor.delete("strawberry")
-          end
-        end
-      end
-    end
-  end
+ contacts["Freddy Mercury"][:favorite_icecream_flavors]
+  delete_if 
   return contacts
 end
 
