@@ -10,8 +10,8 @@ def second_challenge
   
 groceries.each do |hashes|
   returned_values = []
-  returned_values.push(hashes.values)
   
+  returned_values.push(hashes.values)
+  end
   returned_values
-
 end
