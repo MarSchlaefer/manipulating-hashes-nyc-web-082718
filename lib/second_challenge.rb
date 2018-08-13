@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
-
   
+groceries.each do |hashes|
+  returned_values = []
+  returned_values.push(hashes.values)
+  
+  returned_values
 
 end
