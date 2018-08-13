@@ -14,6 +14,7 @@ def first_challenge
   }
 
   contacts.each do |person, data|
+    if data == "Freddy Mercury"
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
